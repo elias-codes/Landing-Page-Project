@@ -4,5 +4,14 @@ body {
     justify-content: space-between;
     font-family: 'Roboto', sans-serif;
 }
+.hero {
+    background-color: aquamarine;
+}
 
+.content {
+    background-color: bisque;
+}
 
+.footer {
+    background-color: blueviolet;
+}
