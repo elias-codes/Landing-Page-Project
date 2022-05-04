@@ -27,6 +27,7 @@ h1 {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: bolder;
+    margin:0;
 }
 
 a {
@@ -65,7 +66,7 @@ a {
 }
 
 .navbar, .hero-bottom { /*This sets a max width for the content*/
-    max-width: 1300px;
+    max-width: 1100px;
 }
 
 button { /*Adds blue color, removes border and rounds corners of buttons*/
@@ -81,4 +82,16 @@ button { /*Adds blue color, removes border and rounds corners of buttons*/
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+}
+
+.hero-container { /*This div contains the text, hero title, and sign up button*/
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-right: 100px;
+    max-width: 500px;
+    /*min-width: 200px;*/
+    margin-bottom: 20px;
 }
