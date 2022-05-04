@@ -74,6 +74,11 @@ button { /*Adds blue color, removes border and rounds corners of buttons*/
     color: white;
     font-weight: bold;
     border: none;
-    border-radius: 5px;
-    
+    border-radius: 5px;    
+}
+
+.hero-bottom {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
 }
