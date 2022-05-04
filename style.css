@@ -64,6 +64,16 @@ a {
     padding: 0;
 }
 
-.navbar, .hero-bottom {
+.navbar, .hero-bottom { /*This sets a max width for the content*/
     max-width: 1300px;
+}
+
+button { /*Adds blue color, removes border and rounds corners of buttons*/
+    background-color: #3882F6;
+    padding: 4px 16px 4px 16px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    
 }
