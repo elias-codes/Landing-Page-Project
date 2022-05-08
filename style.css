@@ -110,13 +110,20 @@ button { /*Adds blue color, removes border and rounds corners of buttons*/
     margin-bottom: 20px;
 }
 
+.quote-content {  
+    width: 800px
+    
+}
 .quote {
     background-color: #E5E7EB;
     font-size: 36px;
     color: #1F2937;
     font-style: italic;
     font-weight: 100;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
 }
 
 .quote p {
