@@ -10,10 +10,14 @@ body {
     flex-flow: column nowrap;
     flex: auto;
     justify-content: center;
-    align-items: stretch;
+    align-items: center;
     font-size: 18px;
     padding: 16px;
     padding-bottom: 150px;
+}
+
+.hero-text {
+    margin-right: 50px;
 }
 
 .hero, .footer
@@ -136,4 +140,8 @@ button { /*Adds blue color, removes border and rounds corners of buttons*/
     font-style:normal;
     font-weight: bold;
     text-align: right;
+}
+
+.container {
+    max-width: 1000px;
 }
