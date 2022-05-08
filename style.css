@@ -1,18 +1,25 @@
 body {
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
+    align-items: stretch;
     font-family: 'Roboto', sans-serif;
     margin:0;    
 }
 .hero {
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
+    flex: auto;
     justify-content: center;
-    align-content: center;
-    background-color: #1F2937;
-    color: #E5E7EB;
+    align-items: stretch;
     font-size: 18px;
     padding: 16px;
+    padding-bottom: 150px;
+}
+
+.hero, .footer
+{   /*Specifies color of bot hero and footer*/
+    background-color: #1F2937;
+    color: #E5E7EB;
 }
 
 .content {
@@ -20,7 +27,10 @@ body {
 }
 
 .footer {
-    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px 40px 0px;
 }
 
 h1 {
@@ -43,14 +53,16 @@ a {
     margin:0;
 }
 
-.heroimage {
+.hero-image {
     background-color: gray;
     width: 500px;
     height: 300px;
+    flex-shrink: 0;
 }
 
 .navbar { /*This is div for the top part of the hero, it aligns the elements horizontally and pushes the links to the right*/
     display: flex;
+    flex: 1 1 auto;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 80px;
@@ -66,7 +78,9 @@ a {
 }
 
 .navbar, .hero-bottom { /*This sets a max width for the content*/
-    max-width: 1100px;
+    
+    flex: 1 1 content;
+    /*max-width: 1100px;*/
 }
 
 button { /*Adds blue color, removes border and rounds corners of buttons*/
@@ -80,18 +94,19 @@ button { /*Adds blue color, removes border and rounds corners of buttons*/
 
 .hero-bottom {
     display: flex;
-    flex-flow: row wrap;
+    flex: 1 1 auto;
+    flex-flow: row nowrap;
     justify-content: space-between;
 }
 
 .hero-container { /*This div contains the text, hero title, and sign up button*/
     display: flex;
     flex-direction: column;
-    flex: 1;
+    flex: 1 1 auto;
     align-items: flex-start;
     justify-content: flex-start;
     margin-right: 100px;
-    max-width: 500px;
+    /*max-width: 500px;*/
     /*min-width: 200px;*/
     margin-bottom: 20px;
 }
