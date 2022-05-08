@@ -65,8 +65,7 @@ a {
     flex: 1 1 auto;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 80px;
-    
+    margin-bottom: 80px;    
 }
 
 .right-links {/*This section adds space to links*/
@@ -109,4 +108,25 @@ button { /*Adds blue color, removes border and rounds corners of buttons*/
     /*max-width: 500px;*/
     /*min-width: 200px;*/
     margin-bottom: 20px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 100;
+    
+}
+
+.quote p {
+    margin: 0;
+}
+
+#quote-author {
+    font-size: 25px;
+    color: #1F2937;
+    font-style:normal;
+    font-weight: bold;
+    text-align: right;
 }
