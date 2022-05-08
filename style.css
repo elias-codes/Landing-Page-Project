@@ -174,3 +174,23 @@ button { /*Adds blue color, removes border and rounds corners of buttons*/
 .container {
     max-width: 1000px;
 }
+
+.callAction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-block {
+    background-color: #3882F6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1000px;
+    padding: 20px 50px;
+    color: white;
+}
+
+.call-text p {
+    margin: 0;
+}
