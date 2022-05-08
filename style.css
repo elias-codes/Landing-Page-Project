@@ -182,15 +182,27 @@ button { /*Adds blue color, removes border and rounds corners of buttons*/
 }
 
 .call-block {
+    box-sizing: border-box;
     background-color: #3882F6;
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 1000px;
-    padding: 20px 50px;
+    padding: 30px 80px;
     color: white;
+    border-radius: 4px;
+    margin: 60px 0px;
+    font-size: 13px;
 }
 
 .call-text p {
+    margin: 0;
+}
+
+.call-block button {
+    border-style: solid;
+    border-width: 2px;
+}
+h2 {
     margin: 0;
 }
